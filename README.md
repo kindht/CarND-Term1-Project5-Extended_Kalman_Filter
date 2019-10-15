@@ -1,10 +1,28 @@
-# Extended Kalman Filter Project
-## Self-Driving Car Engineer Nanodegree Program
+# 无人驾驶(纳米学位)-项目5(Term1 Final Project)-卡尔曼滤波
+# CarND-Project5-Extended Kalman Filter  (C++)
 
-In this project I utilized a kalman filter to estimate the state of a moving object of interest with noisy lidar and radar measurements.  
+[//]: # (Image References)
+[image1.1]: ./examples/example.gif
+[image1.2]: ./examples/example.png
+[image2]: ./Pass-certificate.png 
 
-## Final Results (Fusion of 2 sensors)
-**RMSE** values I obtained are as following , first image shows the simulator interface,  (MacOS 10.14.5)
+This is the 5th project(i.e final project) for the **Self-Driving Car Engineer** Nanodegree program at [Udacity](https://cn.udacity.com/course/self-driving-car-engineer--nd013)
+
+In this project I implemented a **kalman filter** in C++ to estimate the state of a moving object of interest with noisy lidar and radar measurements. 
+
+The steps of this project are the following: 
+
+* **initializing** Kalman filter variables
+* **predicting** where our object is going to be after a time step Δt
+* **updating** where our object is based on sensor measurements
+* **repeating** the prediction and update steps in a **loop*
+* Report out the **RMSE** (root mean squared error) of the estimations
+
+ The project is implemented in **C++**, source files are in [.src](./src) . The source code was compiled and running on MacOS 10.14.5
+ 
+---
+#### Example output 
+**RMSE** values obtained are as the following , first image shows the simulator interface 
 
 [//]: # (Image References)
 
