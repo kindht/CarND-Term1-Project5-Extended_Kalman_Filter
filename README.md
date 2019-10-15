@@ -48,11 +48,11 @@ I used MacOS 10.14.5 with following versions of tools
 This project involves the Term 2 Simulator which can be downloaded [here](https://github.com/udacity/self-driving-car-sim/releases).
  
 ---
-### Example output 
+## Example output 
 **RMSE** values obtained are as the following , first image shows the simulator interface 
 
 [//]: # (Image References)
-
+[image0]:     ./Pass-certificate.png
 [image0.1]:   ./Result/Result-simu-1.png "Simulator"
 [image0.2]:   ./Result/Result-data.png "Local"
 [image0.3]:   ./Result/Result-simu-2.png "Simulator"
@@ -75,7 +75,7 @@ Here is the result running with the **simulator** with **Dataset 2**:
 ![alt text][image0.3]
 
 &nbsp;
-### Test with Laser Only  
+#### Test with Laser Only  
 
 I tested to use **Laser Only** for **Dataset 1**, the result is just **a little bit worse** than fusion of 2 sensors, this shows that the **Laser sensor is highly effective**.  
 
@@ -85,7 +85,7 @@ Here is the result testing on simulator with  **Laser Only** for **Dataset 2**, 
 
 ![alt text][image1.1.2]
 
-### Compare : Laser Only vs. Radar Only
+#### Compare : Laser Only vs. Radar Only
 Here is the result using **Laser Only** with **Data in the data file** (same as Dataset1 in simulator)  
 
 ![alt text][image1.1] 
@@ -96,7 +96,7 @@ Here is the result testing with  **Radar Only** for **Data in the data file**, i
 
 ![alt text][image1.2] 
 
-### Conclusion:
+#### Conclusion:
 we can hardly make good estimations with Radar only, laser sensor will still be necessary.
 
 &nbsp;
@@ -114,3 +114,6 @@ we can hardly make good estimations with Radar only, laser sensor will still be 
   * Linux: gcc / g++ is installed by default on most Linux distros
   * Mac: same deal as make - [install Xcode command line tools](https://developer.apple.com/xcode/features/)
   * Windows: recommend using [MinGW](http://www.mingw.org/)
+
+## Pass certificate
+![alt text][image0] 
