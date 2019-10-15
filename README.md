@@ -33,9 +33,6 @@ Other files include: measurement_package.h, json.hpp
 
 The main.cpp is for build and runing with simulator.
 
-## Test with data file 
-I created a **main_test.cpp** for running with data file for testing purpose.  (in directory of backup/)
-
 ---
 
 ## Important Dependencies
