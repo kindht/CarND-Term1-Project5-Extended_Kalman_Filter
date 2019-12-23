@@ -1,7 +1,7 @@
 # 无人驾驶(纳米学位)-项目5(Term1 Final Project)-卡尔曼滤波
-# CarND-Project5-Extended Kalman Filter  (C++)
+# CarND-Term1-Project5-Extended Kalman Filter  (C++)
 
-This is the 5th project(i.e final project) for the **Self-Driving Car Engineer** Nanodegree program at [Udacity](https://cn.udacity.com/course/self-driving-car-engineer--nd013)
+This is the 5th project(i.e final project) in Term 1 for the **Self-Driving Car Engineer** Nanodegree program at [Udacity](https://cn.udacity.com/course/self-driving-car-engineer--nd013)
 
 In this project I implemented a **kalman filter** in C++ to estimate the state of a moving object of interest with noisy lidar and radar measurements. 
 
